@@ -8,7 +8,7 @@ if len(sys.argv) > 1:
 
     s=paramiko.SSHClient()
     s.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    s.connect('localhost', username='tester01', password='U8fsbaqd/')
+    s.connect('localhost', username='tester', password='adam')
     a,b,c=s.exec_command("GET /etc/passwd") #2
     #a,b,c=s.exec_command("grep -c '^{0}:' /etc/passwd".format(username)) #1
 
