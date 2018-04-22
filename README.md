@@ -24,4 +24,6 @@ ROBOT FRAMEWORK
 ---
 
 ```
+test.robot
+selenium.robot
 ```
